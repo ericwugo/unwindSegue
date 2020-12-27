@@ -13,6 +13,9 @@
 		CE4ECAB024E8B29B00FCE303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECAAE24E8B29B00FCE303 /* Main.storyboard */; };
 		CE4ECAB224E8B29C00FCE303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECAB124E8B29C00FCE303 /* Assets.xcassets */; };
 		CE4ECAB524E8B29C00FCE303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECAB324E8B29C00FCE303 /* LaunchScreen.storyboard */; };
+		CE4ECABD24E8BC7F00FCE303 /* notesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ECABC24E8BC7F00FCE303 /* notesTableViewController.swift */; };
+		CE4ECABF24E8BDC200FCE303 /* editNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ECABE24E8BDC200FCE303 /* editNotesTableViewController.swift */; };
+		CE4ECAC124E8C04400FCE303 /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ECAC024E8C04400FCE303 /* notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CE4ECAB124E8B29C00FCE303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4ECAB424E8B29C00FCE303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4ECAB624E8B29C00FCE303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4ECABC24E8BC7F00FCE303 /* notesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesTableViewController.swift; sourceTree = "<group>"; };
+		CE4ECABE24E8BDC200FCE303 /* editNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editNotesTableViewController.swift; sourceTree = "<group>"; };
+		CE4ECAC024E8C04400FCE303 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				CE4ECAAA24E8B29B00FCE303 /* SceneDelegate.swift */,
 				CE4ECAAC24E8B29B00FCE303 /* ViewController.swift */,
 				CE4ECAAE24E8B29B00FCE303 /* Main.storyboard */,
+				CE4ECABE24E8BDC200FCE303 /* editNotesTableViewController.swift */,
+				CE4ECABC24E8BC7F00FCE303 /* notesTableViewController.swift */,
+				CE4ECAC024E8C04400FCE303 /* notes.swift */,
 				CE4ECAB124E8B29C00FCE303 /* Assets.xcassets */,
 				CE4ECAB324E8B29C00FCE303 /* LaunchScreen.storyboard */,
 				CE4ECAB624E8B29C00FCE303 /* Info.plist */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4ECAAD24E8B29B00FCE303 /* ViewController.swift in Sources */,
+				CE4ECABD24E8BC7F00FCE303 /* notesTableViewController.swift in Sources */,
 				CE4ECAA924E8B29B00FCE303 /* AppDelegate.swift in Sources */,
+				CE4ECAC124E8C04400FCE303 /* notes.swift in Sources */,
+				CE4ECABF24E8BDC200FCE303 /* editNotesTableViewController.swift in Sources */,
 				CE4ECAAB24E8B29B00FCE303 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
